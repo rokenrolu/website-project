@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>denis novik</title>
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+	<h1 class="visually-hidden">
+		Денис Новик — UX/UI Designer
+    </h1>
+	<header class="header">
+		<div class="container">
+			<nav class="navigation">
+				<button
+					class="burger"
+					type="button"
+					aria-label="Открыть меню">
+					 ►  <!-- alt 15 на нумпаде-->  
+				</button>
+				<ul class="navigation__list">
+					<li class="navigation__item">
+						<a href="#home">Дом</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#about">Обо мне</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#skills">Навыки</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#portfolio">Портфолио</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#contacts">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section
+			class="denis"
+			id="home">
+			<div class="container">
+				<div class="denis__content">
+					<h2 class="denis__title">
+						Денис<br>Новик
+					</h2>
+					<p class="denis__text">
+						UX / UI designer<br>
+						24 года, Минск
+					</p>
+				</div>
+				<img
+					class="denis__image"
+					src="images/denisnovik.png"
+					alt="Денис Новик">
+			</div>
+		</section>
+		<section
+			class="about"
+			id="about">
+			<div class="container">
+				<h2 class="section-title">
+					Обо мне
+				</h2>
+				<p>
+					Привет, я Денис - UX/UI дизайнер из Минска. Я заинтересован в дизайне и всё что связано с ним.
+				</p>
+				<p>
+					Я обучаюсь “Веб и мобильный дизайн интерфейсов” в айти-академии.
+				</p>
+				<p>
+					Готов реализовать отличные проекты с замечательными людьми.
+				</p>
+			</div>
+		</section>
+		<section
+			class="skills"
+			id="skills">
+			<div class="container">
+				<h2 class="section-title">
+					Навыки
+				</h2>
+				<p class="section-subtitle">
+					Я работаю в таких программах как
+				</p>
+				<div class="skills__grid">
+					<article class="skill-card">
+						<img src="images/ps.png" alt="Adobe Photoshop">
+						<h3>Adobe Photoshop</h3>
+					</article>
+					<article class="skill-card">
+						<img src="images/ai.png" alt="Adobe Illustrator">
+						<h3>Adobe Illustrator</h3>
+					</article>
+					<article class="skill-card">
+						<img src="images/ae.png" alt="Adobe After Effects">
+						<h3>Adobe After Effects</h3>
+					</article>
+					<article class="skill-card">
+						<img src="images/figma.png" alt="Figma">
+						<h3>Figma</h3>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section
+			class="portfolio"
+			id="portfolio">
+			<div class="container">
+				<h2 class="section-title">
+					Портфолио
+				</h2>
+				<div class="portfolio__item">
+					<img
+						src="images/portfolio-1.png"
+						alt="Online Fashion Store">
+					<p>
+						Интернет-магазин модной одежды - Главная страница
+					</p>
+				</div>
+				<div class="portfolio__item">
+					<img
+						src="images/portfolio-2.png"
+						alt="Reebok Store">
+					<p>
+						Магазин Reebok - Концепт
+					</p>
+				</div>
+				<div class="portfolio__item">
+					<img
+						src="images/portfolio-3.png"
+						alt="Braun Landing Page">
+					<p>
+						Концепт целевой страницы Braun
+					</p>
+				</div>
+			</div>
+		</section>
+		<section
+			class="contacts"
+			id="contacts">
+			<div class="container">
+				<h2 class="section-title">
+					Контакты
+				</h2>
+				<p class="section-subtitle">
+					Хотите узнать больше или просто пообщаться? Добро пожаловать!
+				</p>
+				<form class="contacts__form">
+					<input
+						class="contacts__input"
+						type="text"
+						name="name"
+						placeholder="Ваше имя"
+						required
+						minlength="2">
+					<input
+						class="contacts__input"
+						type="email"
+						name="email"
+						placeholder="Email"
+						required>
+					<textarea
+						class="contacts__textarea"
+						name="message"
+						placeholder="Сообщение"
+						required></textarea>
+					<button
+						class="contacts__button"
+						type="submit">
+						отправить сообщенеи
+					</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<p>
+				Подвисывайтесь на меня в LinkedIn, Instagram, Behance, Dribble
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
